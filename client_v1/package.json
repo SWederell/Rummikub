@@ -1,0 +1,48 @@
+{
+  "name": "rummikub_web",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@atlaskit/css-reset": "^5.0.12",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "react": "^16.13.1",
+    "react-beautiful-dnd": "^13.0.0",
+    "react-dom": "^16.13.1",
+    "react-is": "^16.13.1",
+    "react-redux": "^7.2.0",
+    "react-scripts": "3.4.1",
+    "react-uuid": "^1.0.2",
+    "redux": "^4.0.5",
+    "socket.io-client": "^2.3.0",
+    "styled-components": "^5.1.1",
+    "typescript": "^3.9.5",
+    "express": "^4.17.1",
+    "helmet": "^3.23.3",
+    "socket.io": "^2.3.0",
+    "uuid": "^8.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "devStart": "nodemon server.js"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
